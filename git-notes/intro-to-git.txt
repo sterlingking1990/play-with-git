@@ -1,0 +1,6 @@
+Git is a version control system that makes it easy to 
+
+1. collaborate with peers while working on shared tasks
+2. enables one to create features whenever without having
+to borther about wether the previous feature is safe or not
+
