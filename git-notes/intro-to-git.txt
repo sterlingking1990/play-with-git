@@ -4,3 +4,32 @@ Git is a version control system that makes it easy to
 2. enables one to create features whenever without having
 to borther about wether the previous feature is safe or not
 
+when using git, make sure that you understand what you need it for
+
+beginning with git
+
+to start using git
+-cd to your project directory and then initialize git by entering the command
+git init
+- go ahead to create a new branch by entering git branch <name of branch to work on>
+checkout on that branch by entering git checkout <branch created>
+
+now whatever you do on that directory- be it creating a new folder etc 
+are all done on that branch
+
+stage your work on that branch else it wont recognize what you did
+to stage- enter git add .
+git commit -m "comment goes in the quote"
+
+all you have done is to make a working local git repository, however we need 
+to connect online
+create a repository online and get the address; this becomes the source repos 
+for your local repo
+
+to add this repo to become your online repo use - git add remote origin <name of server>
+
+this will add it to the remote server
+
+now you can push your branch to that remote repo -git push origin <branch name>
+
+
